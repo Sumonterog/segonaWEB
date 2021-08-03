@@ -11,14 +11,14 @@ import { ContactarComponent } from './components/esp/contactar/contactar.compone
 import { EsheaderComponent } from './components/esp/esheader/esheader.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { EsloginComponent } from './components/esp/eslogin/eslogin.component';
-import { InindexComponent } from './components/eng/inindex/inindex.component';
-import { AbouthealthworldComponent } from './components/eng/abouthealthworld/abouthealthworld.component';
-import { ContactComponent } from './components/eng/contact/contact.component';
-import { InheaderComponent } from './components/eng/inheader/inheader.component';
+
+
+
+
 import { EsperfilusComponent } from './components/esp/esperfilus/esperfilus.component';
-import { InperfilusComponent } from './components/eng/inperfilus/inperfilus.component';
+
 import { ESPComponent } from './components/esp/esp.component';
-import { ENGComponent } from './components/eng/eng.component';
+
 import { EditarPerfilComponent } from './components/esp/esperfilus/editar-perfil/editar-perfil.component';
 
 
@@ -35,14 +35,14 @@ import { EditarPerfilComponent } from './components/esp/esperfilus/editar-perfil
     EsheaderComponent,
     FooterComponent,
     EsloginComponent,
-    InindexComponent,
-    AbouthealthworldComponent,
-    ContactComponent,
-    InheaderComponent,
+    
+    
+    
+   
     EsperfilusComponent,
-    InperfilusComponent,
+   
     ESPComponent,
-    ENGComponent,
+    
     EditarPerfilComponent,
     
     
