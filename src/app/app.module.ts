@@ -6,23 +6,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './components/esp/index/index.component';
-import { SobrehealthworldComponent } from './components/esp/sobrehealthworld/sobrehealthworld.component';
 import { ContactarComponent } from './components/esp/contactar/contactar.component';
 import { EsheaderComponent } from './components/esp/esheader/esheader.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { EsloginComponent } from './components/esp/eslogin/eslogin.component';
-
-
-
-
-import { EsperfilusComponent } from './components/esp/esperfilus/esperfilus.component';
-
 import { ESPComponent } from './components/esp/esp.component';
-
-import { EditarPerfilComponent } from './components/esp/esperfilus/editar-perfil/editar-perfil.component';
-
-
-
+import { FormComponent } from './components/form/form.component';
+import { AboutUsComponent } from './components/esp/about-us/about-us.component';
 
 
 
@@ -30,23 +19,12 @@ import { EditarPerfilComponent } from './components/esp/esperfilus/editar-perfil
   declarations: [
     AppComponent,
     IndexComponent,
-    SobrehealthworldComponent,
     ContactarComponent,
     EsheaderComponent,
     FooterComponent,
-    EsloginComponent,
-    
-    
-    
-   
-    EsperfilusComponent,
-   
     ESPComponent,
-    
-    EditarPerfilComponent,
-    
-    
-    
+    FormComponent,
+    AboutUsComponent,
     
   ],
   imports: [
