@@ -700,10 +700,20 @@ section {
 .why-us .icon-boxes .icon-box {
   text-align: center;
   border-radius: 10px;
-  background: #fff;
+  /* background: #fff; */
+  
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 40px 30px;
   width: 100%;
+}
+#particulars {
+  background-image: url("/assets/doctors/particulars.png");
+  background-size: cover;
+}
+
+#autonoms {
+  background-image: url("/assets/gallery/autonoms.png");
+  background-size: cover;
 }
 
 .why-us .icon-boxes .icon-box i {
@@ -722,6 +732,7 @@ section {
   font-size: 15px;
   color: #848484;
 }
+
 
 /*--------------------------------------------------------------
 # About
