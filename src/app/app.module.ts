@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ESPComponent } from './components/esp/esp.component';
 import { FormComponent } from './components/form/form.component';
 import { AboutUsComponent } from './components/esp/about-us/about-us.component';
+import { ParticularsComponent } from './components/particulars/particulars.component';
 
 
 
@@ -25,6 +26,7 @@ import { AboutUsComponent } from './components/esp/about-us/about-us.component';
     ESPComponent,
     FormComponent,
     AboutUsComponent,
+    ParticularsComponent,
     
   ],
   imports: [

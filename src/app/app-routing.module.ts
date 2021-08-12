@@ -6,6 +6,7 @@ import { EsheaderComponent } from './components/esp/esheader/esheader.component'
 import { FooterComponent } from './components/footer/footer.component';
 import { FormComponent } from './components/form/form.component';
 import { AboutUsComponent } from './components/esp/about-us/about-us.component';
+import { ParticularsComponent } from './components/particulars/particulars.component';
 
 
 
@@ -16,6 +17,7 @@ const routes: Routes = [{path: '', pathMatch: 'full', redirectTo: 'index'},
 { path: 'footer', component: FooterComponent},
 { path: 'form', component: FormComponent},
 { path: 'aboutUs', component: AboutUsComponent},
+{ path: 'particulars', component: ParticularsComponent},
 { path: '**', redirectTo: 'index'}
 ];
 
