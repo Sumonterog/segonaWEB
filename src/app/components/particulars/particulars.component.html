@@ -1,5 +1,71 @@
 <app-esheader></app-esheader>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <h1>Oficina D'Atenció Comercial  Alcarràs</h1>
+      <h2>Som la teva Oficina de Confiança</h2>
+    </div>
+  </section><!-- End Hero -->
+  <main id="main" >
 
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us" >
+      <div class="container">
 
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="content">
+              <h3>Qui som?</h3>
+              <p>
+                Som Agents Exclusius d'Adeslas SegurCaixa, asseguradora lider del sector Sanitari Privat.
+                T'oferim un servei personal i professional en la contractació i seguiment de les teves assegurances.
+              </p>
+              <div class="text-center">
+                <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="more-btn">Més informació <i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0" id="particulars"> 
+                    <a [routerLink]="['/particulars']" routerLinkActive="active" class="nav-link scrollto">
+                      <i class="fas fa-search"></i>
+                      <h4>Particulars</h4>
+                      <p>Contracta la teva assegurança i et tornem fins a 100€ per assegurat, en salut i dental*.</p>
+                   </a>
+                  </div>
+                </div>
+              
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0" id="autonoms">
+                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
+                      <i class="fas fa-marker"></i>
+                      <h4>Autònoms</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, eaque nam! Facere, dicta! Consequuntur recusandae quidem vel voluptatem, provident excepturi, magnam assumenda omnis, nesciunt in nostrum pariatur deserunt modi accusamus..</p>
+                    </a>
+                  </div>
+                </div>
 
-<app-footer></app-footer>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0" id="empreses">
+                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
+                      <i class="fas fa-heart"></i>
+                      <h4>Empreses</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia perspiciatis atque numquam aspernatur iure harum qui recusandae. Tempora, delectus quam..</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+  
+
+  <app-footer></app-footer>
+
