@@ -193,29 +193,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 
-#header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  font-family: "Poppins", sans-serif;
-}
 
-#header .logo a {
-  color: #2c4964;
-}
-.textblue{
-  color:#2c4964;
-}
-.textbluedark{
-  color:#343a40;
-}
-
-#header .logo img {
-  max-height: 40px;
-}
 
 /**
 * Appointment Button *
@@ -700,21 +678,29 @@ section {
 .why-us .icon-boxes .icon-box {
   text-align: center;
   border-radius: 10px;
-  /* background: #fff; */
-  
+  /* Aquest color de background és en cas de que no s'apliqui cap imatge al background a les icon-box */
+  background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 40px 30px;
   width: 100%;
 }
+
+/* Apliquem imatge al background de les icon-box, aquest apartat està pensat per mobilitat de promocions, el trobem a l'inci */
 #particulars {
   background-image: url("/assets/doctors/particulars.png");
   background-size: cover;
 }
 
 #autonoms {
-  background-image: url("/assets/gallery/autonoms.png");
+  background-image: url("/assets/gallery/autonoms2.png");
   background-size: cover;
 }
+
+#empreses {
+  background-image: url("/assets/gallery/empreses.png");
+  background-size: cover;
+}
+/* Fi */
 
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
