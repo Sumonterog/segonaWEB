@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FormComponent } from './components/form/form.component';
 import { AboutUsComponent } from './components/esp/about-us/about-us.component';
 import { ParticularsComponent } from './components/particulars/particulars.component';
+import { PlataformaAdeslasSalutBenestarComponent } from './components/plataforma-adeslas-salut-benestar/plataforma-adeslas-salut-benestar.component';
 
 
 
@@ -18,6 +19,7 @@ const routes: Routes = [{path: '', pathMatch: 'full', redirectTo: 'index'},
 { path: 'form', component: FormComponent},
 { path: 'aboutUs', component: AboutUsComponent},
 { path: 'particulars', component: ParticularsComponent},
+{ path: 'plataformaAdeslasSalutBenestar', component: PlataformaAdeslasSalutBenestarComponent},
 { path: '**', redirectTo: 'index'}
 ];
 

@@ -13,6 +13,7 @@ import { ESPComponent } from './components/esp/esp.component';
 import { FormComponent } from './components/form/form.component';
 import { AboutUsComponent } from './components/esp/about-us/about-us.component';
 import { ParticularsComponent } from './components/particulars/particulars.component';
+import { PlataformaAdeslasSalutBenestarComponent } from './components/plataforma-adeslas-salut-benestar/plataforma-adeslas-salut-benestar.component';
 
 
 
@@ -27,6 +28,7 @@ import { ParticularsComponent } from './components/particulars/particulars.compo
     FormComponent,
     AboutUsComponent,
     ParticularsComponent,
+    PlataformaAdeslasSalutBenestarComponent,
     
   ],
   imports: [
