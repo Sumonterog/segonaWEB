@@ -683,6 +683,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 40px 30px;
   width: 100%;
+  
 }
 
 /* Apliquem imatge al background de les icon-box, aquest apartat està pensat per mobilitat de promocions, el trobem a l'inci */
@@ -1767,7 +1768,7 @@ select {
 }
 
 /*--------------------------------------------------------------
-# Particulars
+# Particulars (main)
 --------------------------------------------------------------*/
 #particularsComponent {
   width: 100%;
