@@ -1,3 +1,118 @@
-.productes {
-    padding: 60px 60px;
-}
+
+
+/* En cas de fer servir icon-box lateral blau per accedir a plataforma Adeslas */
+
+/* .productes .content {
+    padding: 30px;
+    background: #1977cc;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .productes .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+  
+  .productes .content p {
+    margin-bottom: 30px;
+  }
+  
+  .productes .content .more-btn {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 6px 30px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+    transition: all ease-in-out 0.4s;
+  }
+  
+  .productes .content .more-btn i {
+    font-size: 14px;
+  }
+  
+  .productes .content .more-btn:hover {
+    color: #1977cc;
+    background: #fff;
+  } */
+  
+  .productes .icon-boxes .icon-box {
+    text-align: center;
+    border-radius: 10px;
+    /* Aquest color de background és en cas de que no s'apliqui cap imatge al background a les icon-box */
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 100px 150px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    
+  }
+  
+  /* Apliquem imatge al background de les icon-box, aquest apartat està pensat per mobilitat de promocions, el trobem a l'inci */
+  #salut {
+    background-image: url("/assets/particulars/producteSalut.jpg");
+    background-size: cover;
+  }
+  
+  #dental {
+    background-image: url("/assets/particulars/producteDental.jpg");
+    background-size: cover;
+  }
+  
+  #llar {
+    background-image: url("/assets/particulars/producteLlar.jpg");
+    background-size: cover;
+  }
+
+  #mascotes {
+    background-image: url("/assets/particulars/producteMascotes.jpg");
+    background-size: cover;
+  }
+
+  #accidents {
+    background-image: url("/assets/particulars/producteAccidents.jpg");
+    background-size: cover;
+  }
+
+  #decessos {
+    background-image: url("/assets/particulars/producteDecessos.jpg");
+    background-size: cover;
+  }
+
+  #electrodomestics {
+    background-image: url("/assets/gallery/empreses.png");
+    background-size: cover;
+  }
+
+  #auto {
+    background-image: url("/assets/gallery/empreses.png");
+    background-size: cover;
+  }
+
+  #viatge {
+    background-image: url("/assets/particulars/producteViatge.jpg");
+    background-size: cover;
+  }
+  /* Fi */
+  
+  /* .productes .icon-boxes .icon-box i {
+    font-size: 40px;
+    color: #1977cc;
+    margin-bottom: 30px;
+  } */
+  
+  .productes .icon-boxes .icon-box h4 {
+    /* font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+    margin-bottom: 3px; */
+  }
+  
+  /* .productes .icon-boxes .icon-box p {
+    font-size: 15px;
+    color: #848484;
+  } */
+  
+  
