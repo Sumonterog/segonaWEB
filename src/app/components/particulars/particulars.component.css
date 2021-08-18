@@ -47,53 +47,89 @@
     margin-left: 40px;
     margin-bottom: 40px;
     width: 100%;
-    
   }
   
-  /* Apliquem imatge al background de les icon-box, aquest apartat està pensat per mobilitat de promocions, el trobem a l'inci */
+  /* Apliquem imatge al background de les icon-box, productes de particulars */
   #salut {
-    background-image: url("/assets/particulars/producteSalut.jpg");
+    background-image: url("/assets/doctors/particulars.png");
     background-size: cover;
+  }
+  /* Propietats aplicades al hover per obtindre opacitat quan el ratolí passa per sobre les imatges amb una transició pk no sigui sobtat  */
+  #salut:hover {
+    filter: opacity(.8);
+    transition:all .5s ease-in-out;
   }
   
   #dental {
     background-image: url("/assets/particulars/producteDental.jpg");
     background-size: cover;
   }
-  
+  #dental:hover {
+    filter: opacity(.8);
+    transition:all .5s ease-in-out;
+  }
+
   #llar {
     background-image: url("/assets/particulars/producteLlar.jpg");
     background-size: cover;
+  }
+  #llar:hover {
+    filter: opacity(.8);
+    transition:all .5s ease-in-out;
   }
 
   #mascotes {
     background-image: url("/assets/particulars/producteMascotes.jpg");
     background-size: cover;
   }
+  #mascotes:hover {
+    filter: opacity(.8);
+    transition:all .5s ease-in-out;
+  }
 
   #accidents {
     background-image: url("/assets/particulars/producteAccidents.jpg");
     background-size: cover;
+  }
+  #accidents:hover {
+    filter: opacity(.8);
+    transition:all .5s ease-in-out;
   }
 
   #decessos {
     background-image: url("/assets/particulars/producteDecessos.jpg");
     background-size: cover;
   }
+  #decessos:hover {
+    filter: opacity(.8);
+    transition:all .5s ease-in-out;
+  }
 
   #electrodomestics {
-    background-image: url("/assets/gallery/empreses.png");
+    background-image: url("/assets/particulars/producteElectrodomestics.jpg");
     background-size: cover;
+  }
+  #electrodomestics:hover {
+    filter: opacity(.8);
+    transition:all .5s ease-in-out;
   }
 
   #auto {
-    background-image: url("/assets/gallery/empreses.png");
+    background-image: url("/assets/particulars/producteAuto.jpg");
     background-size: cover;
+  }
+  #auto:hover {
+    filter: opacity(.8);
+    transition:all .5s ease-in-out;
   }
 
   #viatge {
     background-image: url("/assets/particulars/producteViatge.jpg");
     background-size: cover;
+  }
+  #viatge:hover {
+    filter: opacity(.8);
+    transition:all .5s ease-in-out;
   }
   /* Fi */
   
@@ -115,4 +151,7 @@
     color: #848484;
   } */
   
-  
+  figcaption {
+    text-align: center;
+    margin-top: 5px;
+}

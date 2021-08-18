@@ -686,20 +686,31 @@ section {
   
 }
 
+
 /* Apliquem imatge al background de les icon-box, aquest apartat està pensat per mobilitat de promocions, el trobem a l'inci */
 #particulars {
   background-image: url("/assets/doctors/particulars.png");
   background-size: cover;
 }
+#particulars:hover {
+  -webkit-transform: scale(1.1);
+}
+
 
 #autonoms {
   background-image: url("/assets/gallery/autonoms2.png");
   background-size: cover;
 }
+#autonoms:hover {
+  -webkit-transform: scale(1.1);
+}
 
 #empreses {
   background-image: url("/assets/gallery/empreses.png");
   background-size: cover;
+}
+#empreses:hover {
+  -webkit-transform: scale(1.1);
 }
 /* Fi */
 
