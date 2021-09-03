@@ -1,18 +1,21 @@
 <app-esheader></app-esheader>
-  <!-- ======= Hero Section ======= -->
-  <section id="particularsComponent" class="d-flex align-items-center">
+<!-- ======= Hero Section ======= -->
+<!-- descomento el següent section amb id "particulars" quan vull que s'apliqui l'id ubicat a l'Styles.css-->
+<!--<section id="particularsComponent" class="d-flex align-items-center">-->
+<section id="" class="d-flex align-items-center">
     <div class="container">
-      <h1  style="color:white;">Al teu costat, protegint tot el que t'importa</h1>
+        <h1 style="color:rgb(23, 107, 175);">Al teu costat, protegint tot el que t'importa</h1>
     </div>
-  </section><!-- End Hero -->
-  <main id="main" >
+</section>
+<!-- End Hero -->
+<main id="main">
 
     <!-- ======= Why Us Section ======= -->
-    <section id="productes" class="productes" >
-      <div class="container mt--5">
+    <section id="productes" class="productes">
+        <div class="container mt--5">
 
-        <div class="row">
-          <!-- <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="row">
+                <!-- <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content">
               <h3>Adeslas Salut i Benestar</h3>
               <p>
@@ -23,114 +26,127 @@
               </div>
             </div>
           </div> -->
-          <div class="col-lg-12 d-flex align-items-stretch">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-xl-4 d-flex align-items-stretch" style=" ">
-                  <div class="icon-box mt-4 mt-xl-0" id="salut"> 
-                    <a [routerLink]="['/particulars']" routerLinkActive="active" class="nav-link scrollto">
-                      <i class="fas fa-search"></i>
-                      <h4>Adeslas Salut</h4>
-                      <p></p>
-                   </a>
-                  </div>
-                </div>
-              
-                <div class="col-xl-4 d-flex align-items-stretch"  style=" ">
-                  <div class="icon-box mt-4 mt-xl-0" id="dental">
-                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
-                      <i class="fas fa-marker"></i>
-                      <h4>Adeslas Dental</h4>
-                      <p></p>
-                    </a>
-                  </div>
-                </div>
+                <div class="col-lg-12 d-flex align-items-stretch">
+                    <div class="icon-boxes d-flex flex-column justify-content-center">
+                        <div class="row">
+                            <div class="col-xl-4 d-flex align-items-stretch" style=" ">
+                                <div class="icon-box mt-4 mt-xl-0" id="salut">
+                                    <a [routerLink]="['/particulars']" routerLinkActive="active" class="nav-link scrollto">
+                                        <i class="fas fa-search"></i>
+                                        <h4>Adeslas Salut</h4>
+                                        <p></p>
+                                    </a>
+                                </div>
+                            </div>
 
-                <div class="col-xl-4 d-flex align-items-stretch"  style=" ">
-                  <div class="icon-box mt-4 mt-xl-0" id="llar">
-                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
-                      <i class="fas fa-heart"></i>
-                      <h4>SegurCaixa Llar</h4>
-                      <p></p>
-                    </a>
-                  </div>
-                </div>
-              </div>
+                            <div class="col-xl-4 d-flex align-items-stretch" style=" ">
+                                <div class="icon-box mt-4 mt-xl-0" id="dental">
+                                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
+                                        <i class="fas fa-marker"></i>
+                                        <h4>Adeslas Dental</h4>
+                                        <p></p>
+                                    </a>
+                                </div>
+                            </div>
 
-              <div class="row">
-                <div class="col-xl-4 d-flex align-items-stretch"  style=" ">
-                  <div class="icon-box mt-4 mt-xl-0" id="mascotes" > 
-                    <a [routerLink]="['/particulars']" routerLinkActive="active" class="nav-link scrollto">
-                      <i class="fas fa-search"></i>
-                      <h4>SegurCaixa Mascotes</h4>
-                      <p></p>
-                   </a>
-                  </div>
-                </div>
-              
-                <div class="col-xl-4 d-flex align-items-stretch"  style=" ">
-                  <div class="icon-box mt-4 mt-xl-0" id="accidents">
-                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
-                      <i class="fas fa-marker"></i>
-                      <h4>SegurCaixa Accidents</h4>
-                      <p></p>
-                    </a>
-                  </div>
-                </div>
+                            <div class="col-xl-4 d-flex align-items-stretch" style=" ">
+                                <div class="icon-box mt-4 mt-xl-0" id="llar">
+                                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
+                                        <i class="fas fa-heart"></i>
+                                        <h4>SegurCaixa Llar</h4>
+                                        <p></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="row">
+                            <div class="col-xl-4 d-flex align-items-stretch" style=" ">
+                                <div class="icon-box mt-4 mt-xl-0" id="mascotes">
+                                    <a [routerLink]="['/particulars']" routerLinkActive="active" class="nav-link scrollto">
+                                        <i class="fas fa-search"></i>
+                                        <h4>SegurCaixa Mascotes</h4>
+                                        <p></p>
+                                    </a>
+                                </div>
+                            </div>
 
-                <div class="col-xl-4 d-flex align-items-stretch"  style=" ">
-                  <div class="icon-box mt-4 mt-xl-0" id="decessos" >
-                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
-                      <i class="fas fa-heart"></i>
-                      <h4>SegurCaixa Decessos</h4>
-                      <p></p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-xl-4 d-flex align-items-stretch" style=" ">
-                  <div class="icon-box mt-4 mt-xl-0" id="electrodomestics"> 
-                    <a [routerLink]="['/particulars']" routerLinkActive="active" class="nav-link scrollto">
-                      <i class="fas fa-search"></i>
-                      <h4>SegurCaixa Electrodomèstics</h4>
-                      <p></p>
-                   </a>
-                  </div>
-                </div>
-              
-                <div class="col-xl-4 d-flex align-items-stretch" style=" ">
-                  <div class="icon-box mt-4 mt-xl-0" id="auto">
-                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
-                      <i class="fas fa-marker"></i>
-                      <h4>SegurCaixa Autos</h4>
-                      <p></p>
-                    </a>
-                  </div>
-                </div>
+                            <div class="col-xl-4 d-flex align-items-stretch" style=" ">
+                                <div class="icon-box mt-4 mt-xl-0" id="accidents">
+                                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
+                                        <i class="fas fa-marker"></i>
+                                        <h4>SegurCaixa Accidents</h4>
+                                        <p></p>
+                                    </a>
+                                </div>
+                            </div>
 
 
-                <div class="col-xl-4 d-flex align-items-stretch" style=" ">
-                  <div class="icon-box mt-4 mt-xl-0" id="viatge" >
-                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
-                      <i class="fas fa-heart"></i>
-                      <h4>Assistència en Viatge</h4>
-                      <p></p>
-                    </a>
-                  </div>
+                            <div class="col-xl-4 d-flex align-items-stretch" style=" ">
+                                <div class="icon-box mt-4 mt-xl-0" id="decessos">
+                                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
+                                        <i class="fas fa-heart"></i>
+                                        <h4>SegurCaixa Decessos</h4>
+                                        <p></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xl-4 d-flex align-items-stretch" style=" ">
+                                <div class="icon-box mt-4 mt-xl-0" id="electrodomestics">
+                                    <a [routerLink]="['/particulars']" routerLinkActive="active" class="nav-link scrollto">
+                                        <i class="fas fa-search"></i>
+                                        <h4>SegurCaixa Electrodomèstics</h4>
+                                        <p></p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 d-flex align-items-stretch" style=" ">
+                                <div class="icon-box mt-4 mt-xl-0" id="auto">
+                                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
+                                        <i class="fas fa-marker"></i>
+                                        <h4>SegurCaixa Autos</h4>
+                                        <p></p>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div class="col-xl-4 d-flex align-items-stretch" style=" ">
+                                <div class="icon-box mt-4 mt-xl-0" id="viatge">
+                                    <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="nav-link scrollto">
+                                        <i class="fas fa-heart"></i>
+                                        <h4>Assistència en Viatge</h4>
+                                        <p></p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 d-flex align-items-stretch">
+                                <div class="icon-box mt-4 mt-xl-0" id="promo">
+                                    <h3>Adeslas Salut i Benestar</h3>
+                                    <p>
+                                        Cuida't i millora l'estil de vida amb la plataforma de salut digital Adeslas
+                                    </p>
+                                    <div class="text-center">
+                                        <a [routerLink]="['../aboutUs']" routerLinkActive="active" class="more-btn">Més informació <i class="bx bx-chevron-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- End .content-->
                 </div>
-              </div>
-              
-            </div><!-- End .content-->
-          </div>
+            </div>
         </div>
+    </section>
 
-      </div>
-    </section><!-- End Why Us Section -->
+    <!-- End Why Us Section -->
 
-  
 
-  <app-footer></app-footer>
 
+    <app-footer></app-footer>

@@ -1,6 +1,5 @@
-
-
 /* En cas de fer servir icon-box lateral blau per accedir a plataforma Adeslas */
+
 
 /* .productes .content {
     padding: 30px;
@@ -36,8 +35,8 @@
     color: #1977cc;
     background: #fff;
   } */
-  
-  .productes .icon-boxes .icon-box {
+
+.productes .icon-boxes .icon-box {
     text-align: center;
     border-radius: 10px;
     /* Aquest color de background és en cas de que no s'apliqui cap imatge al background a les icon-box */
@@ -47,111 +46,148 @@
     margin-left: 40px;
     margin-bottom: 40px;
     width: 100%;
-  }
-  
-  /* Apliquem imatge al background de les icon-box, productes de particulars */
-  #salut {
+}
+
+
+/* Apliquem imatge al background de les icon-box, productes de particulars */
+
+#salut {
     background-image: url("/assets/doctors/particulars.png");
     background-size: cover;
-  }
-  /* Propietats aplicades al hover per obtindre opacitat quan el ratolí passa per sobre les imatges amb una transició pk no sigui sobtat  */
-  #salut:hover {
+}
+
+
+/* Propietats aplicades al hover per obtindre opacitat quan el ratolí passa per sobre les imatges amb una transició pk no sigui sobtat  */
+
+#salut:hover {
+    -webkit-transform: scale(1.1);
     filter: opacity(.8);
-    transition:all .5s ease-in-out;
-  }
-  
-  #dental {
+    transition: all .5s ease-in-out;
+}
+
+#dental {
     background-image: url("/assets/particulars/producteDental.jpg");
     background-size: cover;
-  }
-  #dental:hover {
-    filter: opacity(.8);
-    transition:all .5s ease-in-out;
-  }
+}
 
-  #llar {
+#dental:hover {
+    -webkit-transform: scale(1.1);
+    filter: opacity(.8);
+    transition: all .5s ease-in-out;
+}
+
+#llar {
     background-image: url("/assets/particulars/producteLlar.jpg");
     background-size: cover;
-  }
-  #llar:hover {
-    filter: opacity(.8);
-    transition:all .5s ease-in-out;
-  }
+}
 
-  #mascotes {
+#llar:hover {
+    -webkit-transform: scale(1.1);
+    filter: opacity(.8);
+    transition: all .5s ease-in-out;
+}
+
+#mascotes {
     background-image: url("/assets/particulars/producteMascotes.jpg");
     background-size: cover;
-  }
-  #mascotes:hover {
-    filter: opacity(.8);
-    transition:all .5s ease-in-out;
-  }
+}
 
-  #accidents {
+#mascotes:hover {
+    -webkit-transform: scale(1.1);
+    filter: opacity(.8);
+    transition: all .5s ease-in-out;
+}
+
+#accidents {
     background-image: url("/assets/particulars/producteAccidents.jpg");
     background-size: cover;
-  }
-  #accidents:hover {
-    filter: opacity(.8);
-    transition:all .5s ease-in-out;
-  }
+}
 
-  #decessos {
+#accidents:hover {
+    -webkit-transform: scale(1.1);
+    filter: opacity(.8);
+    transition: all .5s ease-in-out;
+}
+
+#decessos {
     background-image: url("/assets/particulars/producteDecessos.jpg");
     background-size: cover;
-  }
-  #decessos:hover {
-    filter: opacity(.8);
-    transition:all .5s ease-in-out;
-  }
+}
 
-  #electrodomestics {
+#decessos:hover {
+    -webkit-transform: scale(1.1);
+    filter: opacity(.8);
+    transition: all .5s ease-in-out;
+}
+
+#electrodomestics {
     background-image: url("/assets/particulars/producteElectrodomestics.jpg");
     background-size: cover;
-  }
-  #electrodomestics:hover {
-    filter: opacity(.8);
-    transition:all .5s ease-in-out;
-  }
+}
 
-  #auto {
+#electrodomestics:hover {
+    -webkit-transform: scale(1.1);
+    filter: opacity(.8);
+    transition: all .5s ease-in-out;
+}
+
+#auto {
     background-image: url("/assets/particulars/producteAuto.jpg");
     background-size: cover;
-  }
-  #auto:hover {
-    filter: opacity(.8);
-    transition:all .5s ease-in-out;
-  }
+}
 
-  #viatge {
+#auto:hover {
+    -webkit-transform: scale(1.1);
+    filter: opacity(.8);
+    transition: all .5s ease-in-out;
+}
+
+#viatge {
     background-image: url("/assets/particulars/producteViatge.jpg");
     background-size: cover;
-  }
-  #viatge:hover {
+}
+
+#viatge:hover {
+    -webkit-transform: scale(1.1);
     filter: opacity(.8);
-    transition:all .5s ease-in-out;
-  }
-  /* Fi */
-  
-  /* .productes .icon-boxes .icon-box i {
+    transition: all .5s ease-in-out;
+}
+
+#promo {
+    background: #3291e6;
+    background-size: cover;
+}
+
+#promo:hover {
+    -webkit-transform: scale(1.1);
+    filter: opacity(.8);
+    transition: all .5s ease-in-out;
+}
+
+
+/* Fi */
+
+
+/* .productes .icon-boxes .icon-box i {
     font-size: 40px;
     color: #1977cc;
     margin-bottom: 30px;
   } */
-  
-  .productes .icon-boxes .icon-box h4 {
+
+.productes .icon-boxes .icon-box h4 {
     /* font-size: 20px;
     font-weight: 700;
     margin: 0 0 30px 0;
     margin-bottom: 3px; */
-  }
-  
-  /* .productes .icon-boxes .icon-box p {
+}
+
+
+/* .productes .icon-boxes .icon-box p {
     font-size: 15px;
     color: #848484;
   } */
-  
-  figcaption {
+
+figcaption {
     text-align: center;
     margin-top: 5px;
 }
